@@ -62,7 +62,6 @@ namespace ISayYouDo_Demo.Controllers
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 client.DefaultRequestHeaders.Add("Authorization", "Bearer " + "Your Access Token");
-
                 StringContent content = new StringContent(JsonConvert.SerializeObject(outRecipe));
                 HttpContent httpcontent = content;
                 httpcontent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
