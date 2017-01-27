@@ -9,6 +9,7 @@ namespace ISayYouDo_Demo.Entities
 {
     public class Recepe
     {
+        //recipes table
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int sessionId { get; set; }
