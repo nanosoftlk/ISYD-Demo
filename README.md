@@ -1,0 +1,2 @@
+# ISYD-Demo
+A project developed in C# (ASP.NET Web API 2) which explains how to grab a request coming from ISYD Say Box / Do Box and how to send the request back to server by making the status as 1. Then it show the code how to talk to ISayYouDo API through IdeaBiz and to invoke the Do Box to do the assigned action. It also implements method grab the Dialog smart button press and how to respond to click requests.
