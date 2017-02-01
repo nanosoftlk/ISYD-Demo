@@ -16,3 +16,14 @@ namespace ISayYouDo_Demo.Models
         public string event_name { get; set; }
     }
 }
+
+//JSON Object
+//{
+//	"mac": "DB224",
+//	"messagetype": "EVENT",
+//	"in_device_id": "111151",
+//	"brand": "UOM",
+//	"type": "BUTTON_V2",
+//	"user_id": "55915",
+//	"event_name": "PRESSED"
+//}

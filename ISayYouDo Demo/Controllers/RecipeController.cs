@@ -29,7 +29,6 @@ namespace ISayYouDo_Demo.Controllers
                 // save the recepe
                 var rece_input = new InputObject();
 
-                rece_input.button_code = recepe.inputObject.button_code;
                 rece_input.button_serial = recepe.inputObject.button_serial;
                 rece_input.sessionId = recepe.sessionId;
 
@@ -46,7 +45,7 @@ namespace ISayYouDo_Demo.Controllers
 
                 //set the active status back
                 recepe.activeStatus = 1;
-                //return CreatedAtRoute("DefaultApi", new { id = recepe.sessionId }, recepe);
+
                 return Ok(recepe);
             }
 

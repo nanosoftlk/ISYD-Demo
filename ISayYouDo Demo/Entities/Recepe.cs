@@ -22,3 +22,15 @@ namespace ISayYouDo_Demo.Entities
         public virtual InputObject inputObject { get; set; }
     }
 }
+
+//## Sample JSON Object
+//{
+//	"connectToken": "",
+//	"notifyURL": "https://ideabiz.lk/apicall/isayyoudo/1.0/invokeUserCondition",
+//	"sessionId": 3270,
+//	"userId": 131,
+//	"activeStatus": 200,
+//	"InputObject": {
+//		"button_serial": "DB224"
+//	}
+//}

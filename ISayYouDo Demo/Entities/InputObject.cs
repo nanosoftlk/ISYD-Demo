@@ -9,6 +9,5 @@ namespace ISayYouDo_Demo.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int sessionId { get; set; }
         public string button_serial { get; set; }
-        public string button_code { get; set; }
     }
 }

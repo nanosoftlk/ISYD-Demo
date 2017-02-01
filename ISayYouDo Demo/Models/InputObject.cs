@@ -11,8 +11,6 @@ namespace ISayYouDo_Demo.Models
         //you should match below properties with the ui obejects you've created in ISYD
         //we'll assume here we have two text boxes with below names
         public string button_serial { get; set; }
-        public string button_code { get; set; }
-
     }
 
     //
