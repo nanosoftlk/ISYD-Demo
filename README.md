@@ -6,7 +6,7 @@ A project developed in C# (ASP.NET Web API 2) which explains how to grab a reque
 ```json
 {
 	"connectToken": "",
-	"notifyURL": "https://ideabiz.lk/apicall/isayyoudo/1.0/invokeUserCondition",
+	"notifyURL": "https://ideabiz.lk/.../invokeUserCondition",
 	"sessionId": 3270,
 	"userId": 131,
 	"activeStatus": 200,
@@ -21,7 +21,7 @@ A project developed in C# (ASP.NET Web API 2) which explains how to grab a reque
 ```json
 {
 	"connectToken": "",
-	"notifyURL": "https://ideabiz.lk/apicall/isayyoudo/1.0/invokeUserCondition",
+	"notifyURL": "https://ideabiz.lk/.../invokeUserCondition",
 	"sessionId": 3194,
 	"userId": 131,
 	"activeStatus": 1,
