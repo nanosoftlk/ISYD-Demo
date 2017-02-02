@@ -243,3 +243,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/ISayYouDo Demo/Properties/PublishProfiles/Default Settings.pubxml
